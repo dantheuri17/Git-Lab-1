@@ -17,9 +17,17 @@ body {
 .card {
     background: white;
     width: 220px; 
-    height: 400px; 
+    height: auto; 
     margin: 10px; 
     border-radius: 15px; 
+}
+
+.card > p { 
+    font-size: .75em;
+}
+
+.card > p, .card > h2 { 
+    padding: .75em; 
 }
 
 .card-image {
@@ -30,18 +38,18 @@ body {
     border-radius: 15px 15px 0 0; 
 }
 
-.profile-pic-1 {
+.loulou-pic {
     background-image: url('./assets/moana.jpg')
 }
 
-.profile-pic-2 {
+.daniel-pic {
     background-image: url('./assets/pineapple.jpg')
 }
 
-.profile-pic-3 {
+.guraj-pic {
     background-image: url('./assets/bike.jpg')
 }
 
-.profile-pic-4 {
+.moses-pic {
     background-image: url('./assets/lion.jpg')
 }
