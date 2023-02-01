@@ -1,0 +1,47 @@
+* {
+    box-sizing: border-box;
+    padding: 0; 
+    margin: 0;
+}
+
+body {
+    background-color: rgb(27, 27, 27);
+}
+
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    background: white;
+    width: 220px; 
+    height: 400px; 
+    margin: 10px; 
+    border-radius: 15px; 
+}
+
+.card-image {
+    background-color: aqua;
+    height: 170px;
+    margin-bottom: 15px;
+    background-size: cover;
+    border-radius: 15px 15px 0 0; 
+}
+
+.profile-pic-1 {
+    background-image: url('./assets/moana.jpg')
+}
+
+.profile-pic-2 {
+    background-image: url('./assets/pineapple.jpg')
+}
+
+.profile-pic-3 {
+    background-image: url('./assets/bike.jpg')
+}
+
+.profile-pic-4 {
+    background-image: url('./assets/lion.jpg')
+}
