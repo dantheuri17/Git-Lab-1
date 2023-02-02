@@ -5,9 +5,8 @@
 }
 
 body {
-    background-color: rgb( 138,43,226 );
+    background-color: rgb(154, 228, 222);
 }
-
 .banner-img {
     width: 100%;
 }
@@ -15,7 +14,6 @@ body {
 h1 {
     color: white; 
     text-align: center;
-    margin-top: 2.5em; 
     margin-bottom: 2.5em; 
     font-size: 2em;
 }
@@ -89,8 +87,4 @@ h1 {
 
 .moses-pic {
     background-image: url('./assets/lion.jpg')
-}
-
-.paul-pic {
-    background-image: url('./assets/shabanalg.jpg')
 }
