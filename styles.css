@@ -5,12 +5,17 @@
 }
 
 body {
-    background-color: rgb( 33, 47, 61 );
+    background-color: rgb( 138,43,226 );
+}
+
+.banner-img {
+    width: 100%;
 }
 
 h1 {
     color: white; 
     text-align: center;
+    margin-top: 2.5em; 
     margin-bottom: 2.5em; 
     font-size: 2em;
 }
@@ -84,4 +89,8 @@ h1 {
 
 .moses-pic {
     background-image: url('./assets/lion.jpg')
+}
+
+.paul-pic {
+    background-image: url('./assets/male_lion.jpg')
 }
